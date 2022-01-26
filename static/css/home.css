@@ -1,0 +1,13 @@
+body,
+html {
+    background-color: #5238af;
+    background-image: url('https://www.androidguys.com/wp-content/uploads/2015/04/wallpaper_1122770536.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    /*font-family: 'Numans', sans-serif;*/
+}
+
+h1 {
+    color: white
+}
