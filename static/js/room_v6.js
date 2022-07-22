@@ -37,7 +37,7 @@ chatMessageInput.onkeyup = function(e) {
 // clear the 'chatMessageInput' and forward the message
 chatMessageSend.onclick = function() {
     if (chatMessageInput.value.length === 0) return;
-    chatSocket.onopen = () => chatSocket.send(JSON.stringify({
+    chatSocket.send(JSON.stringify({
         "message": chatMessageInput.value,
     }));
     chatMessageInput.value = "";
