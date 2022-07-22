@@ -46,7 +46,7 @@ chatMessageSend.onclick = function() {
 let chatSocket = null;
 
 function connect() {
-    if (windows.location.protocol == 'https') {
+    if (window.location.protocol == 'https') {
         wsProtocol = 'wss://'
     } else {wsProtocol = 'ws://'}
 
