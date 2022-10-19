@@ -3,5 +3,11 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <h1>HELLO WORLD!</h1>
         </div>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <h1>HELLO WORLD1!</h1>
+        </div>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <h1>HELLO WORLD2!</h1>
+        </div>
     </foreignObject>
 </svg>
