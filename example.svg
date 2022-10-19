@@ -1,23 +1,22 @@
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-    <style>
-        body {
-            background-color: #ABBAEA;
-        }
-        div {
-            height: 200px;
-            margin: 20px;
-            border: 5px solid;
-            background-color: #FBD603;
-        }
-    </style>
-    <body>
-        <div>
-            <p>This is the parent div which contains the div we are testing</p>
+<svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+            h1 {
+                color: red;
+                animation: mymove 2s infinite;
+            }
 
-            <div>
-                <p>This example shows that changing the background color of a div does not affect the border and margin of the div.</p>
-            </div>
+            @keyframes mymove {
+                from {
+                    color: red;
+                }
+                to {
+                    color: yellow;
+                }
+            }
+            </style>
+            <h1>HELLO WORLD!</h1>
         </div>
-    </body>
-
+    </foreignObject>
 </svg>
