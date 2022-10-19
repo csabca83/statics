@@ -1,12 +1,23 @@
 <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-    <div class="div-1">
-        <ul>
-            <li>Hello world</li>
-        </ul>
-    </div>
     <style>
-        .div-1 {
-            background-color: #EBEBEB;
+        body {
+            background-color: #ABBAEA;
+        }
+        div {
+            height: 200px;
+            margin: 20px;
+            border: 5px solid;
+            background-color: #FBD603;
         }
     </style>
+    <body>
+        <div>
+            <p>This is the parent div which contains the div we are testing</p>
+
+            <div>
+                <p>This example shows that changing the background color of a div does not affect the border and margin of the div.</p>
+            </div>
+        </div>
+    </body>
+
 </svg>
