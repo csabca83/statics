@@ -4,10 +4,9 @@
             <li>Hello world</li>
         </ul>
     </div>
+    <style>
+        .div-1 {
+            background-color: #EBEBEB;
+        }
+    </style>
 </svg>
-
-<style>
-    .div-1 {
-        background-color: #EBEBEB;
-    }
-</style>
