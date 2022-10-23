@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image:url("https://cdn.jsdelivr.net/gh/csabca83/statics/static/images/esti.jpg");
+    background-image:url("./Első honlap/képek/esti.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -11,4 +11,3 @@ body{
     width: 100%;
     height: 100%;
 }
-
