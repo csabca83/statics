@@ -117,6 +117,17 @@
   animation: animate 4s linear infinite;
 }
 
+.custom-label {
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom */
+    right: 10px; /* Adjust the distance from the right */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
 @keyframes animate {
   0% {
     transform: scaleX(0);
