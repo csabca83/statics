@@ -117,7 +117,7 @@
   animation: animate 4s linear infinite;
 }
 
-.custom-label {
+.pod-name {
     position: absolute;
     bottom: 10px; /* Adjust the distance from the bottom */
     right: 10px; /* Adjust the distance from the right */
